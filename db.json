@@ -1,0 +1,52 @@
+{
+  "store_info": [
+    {
+      "id": 1,
+      "name": "Camera World",
+      "description": "Capture The Moment!",
+      "phone_number": "555-1234"
+    }
+  ],
+  "cameras": [
+    {
+      "id": 1,
+      "name": "Canon EOS R6",
+      "brand": "Canon",
+      "description": "Full-frame mirrorless camera with fast autofocus",
+      "origin": "Japan",
+      "price": 2499.99
+    },
+    {
+      "id": 2,
+      "name": "Sony A7 IV",
+      "brand": "Sony",
+      "description": "33MP full-frame sensor, great for photo and video",
+      "origin": "Japan",
+      "price": 2799.99
+    },
+    {
+      "id": 3,
+      "name": "Nikon Z6 II",
+      "brand": "Nikon",
+      "description": "Versatile full-frame mirrorless with dual processors",
+      "origin": "Japan",
+      "price": 1999.99
+    },
+    {
+      "id": 4,
+      "name": "Leica Q3",
+      "brand": "Leica",
+      "description": "Premium compact with 60MP sensor and fixed lens",
+      "origin": "Germany",
+      "price": 5995.99
+    },
+    {
+      "id": 5,
+      "name": "Hasselblad X2D",
+      "brand": "Hasselblad",
+      "description": "Medium format 100MP sensor, ultimate image quality",
+      "origin": "Sweden",
+      "price": 8199.99
+    }
+  ]
+}

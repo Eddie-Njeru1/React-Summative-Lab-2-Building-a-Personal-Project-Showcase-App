@@ -1,7 +1,7 @@
 // Import react state hooks and react router routes
 import React from 'react';
 import { useState } from 'react';
-import { BrowseRouter, Routes, Route } from 'react-router-dom'; //Handles page naviation
+import { BrowserRouter, Routes, Route } from 'react-router-dom'; //Handles page naviation
 import Navbar from "./components/Navbar"; //Will be seen on every page
 //Page components to be linked to App
 import LandingPage from './pages/LandingPage'; 

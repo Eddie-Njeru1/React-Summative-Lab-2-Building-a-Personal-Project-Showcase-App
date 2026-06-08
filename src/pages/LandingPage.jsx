@@ -10,7 +10,7 @@ function LandingPage () {
         .then(data => {
             setStoreInfo(data) //Stores the state of store info
         })
-    }, []);
+    }, []); //empty dependencies array to run the fetch request only once
 
     if (!storeInfo) return <Typography>Loading...</Typography> //When data doesn't load
     
@@ -26,3 +26,4 @@ function LandingPage () {
     );
 };
 
+export default LandingPage;

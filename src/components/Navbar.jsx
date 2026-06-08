@@ -15,3 +15,5 @@ function Navbar() { //Everything will align with Material UI styling principles
     );
     
 };
+
+export default Navbar;

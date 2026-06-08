@@ -28,6 +28,9 @@ function ProductsPage () {
                 variant="outlined"
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
+                sx={{
+                    backgroundColor: 'white',
+                }}
             />
             <Grid>
                 {filteredCameras.map(camera => (

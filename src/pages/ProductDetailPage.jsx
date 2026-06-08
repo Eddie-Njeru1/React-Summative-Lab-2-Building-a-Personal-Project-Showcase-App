@@ -15,7 +15,7 @@ function ProductDetailPage() {
         })
     }, [id])
 
-    function handlePriceUpdate() {
+    function handlePriceUpdate() { //Send PATCH request to server to update price
         fetch(`http://localhost:3001/cameras/${id}`, {
             method: 'PATCH',
             headers: { 'Content-Type': 'application/json'},
@@ -23,12 +23,12 @@ function ProductDetailPage() {
         })
         .then(res => res.json())
         .then(updatedCamera => {
-            setCamera(updatedCamera)
-            setNewPrice('')
+            setCamera(updatedCamera) //update camera state with new price
+            setNewPrice('') // clears the typing input area
     })
 }
 
-if (!camera) return <Typography>Loading...</Typography>
+if (!camera) return <Typography>Loading...</Typography> //Show loading page if data isn't loaded
 return (
     <Container>
         <Box>
